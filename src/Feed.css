@@ -20,7 +20,6 @@
 }
 
 /* for hiding scrollbar  */
-
 /* for chrome  */
 .feed::-webkit-scrollbar {
     display: none;

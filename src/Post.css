@@ -17,6 +17,7 @@
 .post__imageContainer {
     max-width: 500px;
     height: max-content;
+    margin-top: 20px;
 }
 
 .post__imageContainer > img {

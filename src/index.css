@@ -1,6 +1,10 @@
 * {
   margin: 0;
 }
+
+*:focus {
+    outline: none;
+}
  
 body {
   margin: 0;

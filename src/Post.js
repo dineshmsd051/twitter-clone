@@ -27,9 +27,9 @@ function Post({
             <h4>
               Dinesh Msd{" "}
               <span>
-                <VerifiedIcon className="post__verifiedBadge" />
+                <VerifiedIcon className="post__verifiedBadge" />{" "}
               </span>
-              <span className='post__username'>@dineshmsd051</span>
+              <span className="post__username">@dineshmsd051</span>
             </h4>
           </div>
           <div className="post__headerDescription">
@@ -43,11 +43,11 @@ function Post({
           />
         </div>
         <div className="post__footer">
-          <ChatBubbleOutlineOutlinedIcon fontSize='20px' />
-          <RepeatOutlinedIcon fontSize='20px' />
-          <FavoriteBorderOutlinedIcon fontSize='20px' />
-          <EqualizerOutlinedIcon fontSize='20px' />
-          <FileUploadOutlinedIcon fontSize='20px' />
+          <ChatBubbleOutlineOutlinedIcon fontSize="20px" />
+          <RepeatOutlinedIcon fontSize="20px" />
+          <FavoriteBorderOutlinedIcon fontSize="20px" />
+          <EqualizerOutlinedIcon fontSize="20px" />
+          <FileUploadOutlinedIcon fontSize="20px" />
         </div>
       </div>
     </div>

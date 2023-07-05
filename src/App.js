@@ -1,10 +1,14 @@
 import './App.css';
+import Feed from './Feed';
 import SideBar from './SideBar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
      <SideBar />
+
+    <Feed/>
+ 
     </div>
   );
 }

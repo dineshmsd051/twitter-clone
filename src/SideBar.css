@@ -8,7 +8,7 @@
 }
 
 .sideBar__tweet {
-    background-color: var(--twitter-button-bg) !important;
+    background-color: var(--twitter-color) !important;
     border: none !important;
     color: white !important;
     font-weight: 900 !important;

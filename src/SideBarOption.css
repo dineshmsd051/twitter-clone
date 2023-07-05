@@ -1,3 +1,7 @@
+.sideBarOption__Wrapper {
+    margin-bottom: 10px;
+}
+
 .sideBarOption {
     display: flex;
     align-items: center;
@@ -12,7 +16,7 @@
 }
 
 .sideBarOption > .MuiSvgIcon-root {
-    padding: 20px;
+    padding: 12px;
 }
 
 .sideBarOption > h2 {

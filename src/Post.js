@@ -9,12 +9,12 @@ import EqualizerOutlinedIcon from "@mui/icons-material/EqualizerOutlined";
 import FileUploadOutlinedIcon from "@mui/icons-material/FileUploadOutlined";
 
 function Post({
-    avatar,
-    displayName,
-    userName,
-    isVerified,
-    text,
-    image,
+  avatar,
+  displayName,
+  userName,
+  isVerified,
+  text,
+  image,
 }) {
   return (
     <div className="post">
@@ -25,7 +25,7 @@ function Post({
         <div className="post__header">
           <div className="post__headerText">
             <h4>
-              {displayName}
+              {displayName?.displayName}
               {isVerified && (
                 <span>
                   <VerifiedIcon className="post__verifiedBadge" />{" "}
@@ -39,7 +39,7 @@ function Post({
           </div>
         </div>
         <div className="post__imageContainer">
-          <img src={image} alt="post-attachment" />
+          {image && <img src={image} alt="post-attachment" />}
         </div>
         <div className="post__footer">
           <ChatBubbleOutlineOutlinedIcon fontSize="20px" />

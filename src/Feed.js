@@ -4,11 +4,9 @@ import TweetBox from './TweetBox';
 import Post from './Post';
 import db from "./firebase"
 import {
-  doc,
   onSnapshot,
   collection,
   query,
-  where
 } from "firebase/firestore";
 
 function Feed() {
@@ -17,12 +15,12 @@ function Feed() {
 
 useEffect(() => {
   const postsRef = query(collection(db, "posts"));
-  const unsubscribe = onSnapshot(postsRef, (snapshot) => {
+  const fetchPosts = onSnapshot(postsRef, (snapshot) => {
     const posts = snapshot.docs.map((snapshotData) => snapshotData.data());
     setPosts(posts);
   });
 
-  return () => unsubscribe();
+  return () => fetchPosts();
 }, []);
 
 

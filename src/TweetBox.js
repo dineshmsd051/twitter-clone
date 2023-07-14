@@ -27,7 +27,7 @@ function TweetBox() {
 
     const tweetData = {
       avatar:
-        "https://lh3.googleusercontent.com/ogw/AGvuzYb8DRiIPejMPPcjgAi4JL_RH99W0ZXmSfZLAwwkNw=s32-c-mo",
+        "https://pbs.twimg.com/profile_images/1590968738358079488/IY9Gx6Ok_400x400.jpg",
       displayName: "Dinesh Msd",
       id: generateRandomHexColor(),
       image: tweetImage,
@@ -50,7 +50,7 @@ function TweetBox() {
     <div className="tweetBox">
       <form>
         <div className="tweetBox__input">
-          <Avatar src="" />
+          <Avatar src="https://pbs.twimg.com/profile_images/1590968738358079488/IY9Gx6Ok_400x400.jpg" />
           <input
             type="text"
             onChange={(e) => setTweetMessage(e.target.value)}
@@ -70,7 +70,9 @@ function TweetBox() {
             Tweet
           </Button>
         </div>
-        <div style={{padding: '10px 20px'}}>{error && <Alert severity="error">{error}</Alert>}</div>
+        <div style={{ padding: "10px 20px" }}>
+          {error && <Alert severity="error">{error}</Alert>}
+        </div>
       </form>
     </div>
   );

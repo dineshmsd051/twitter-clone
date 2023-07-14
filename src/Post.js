@@ -25,7 +25,7 @@ function Post({
         <div className="post__header">
           <div className="post__headerText">
             <h4>
-              {displayName?.displayName}
+              {displayName}
               {isVerified && (
                 <span>
                   <VerifiedIcon className="post__verifiedBadge" />{" "}

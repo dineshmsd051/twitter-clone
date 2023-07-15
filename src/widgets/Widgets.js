@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Widgets.css";
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-import { TwitterTweetEmbed } from "react-twitter-embed";
+import { TwitterTimelineEmbed, TwitterTweetEmbed } from "react-twitter-embed";
 
 
 function Widgets() {
@@ -15,7 +15,6 @@ function Widgets() {
       <div className="widgets__widgetContainer">
         <h2>What's happening</h2>
         <TwitterTweetEmbed tweetId={"1675315349573578752"} />
-
       </div>
     </div>
   );

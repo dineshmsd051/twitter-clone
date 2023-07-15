@@ -1,18 +1,7 @@
 import React from 'react';
 import "./Widgets.css";
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-import {
-  TwitterTimelineEmbed,
-  TwitterShareButton,
-  TwitterFollowButton,
-  TwitterHashtagButton,
-  TwitterMentionButton,
-  TwitterTweetEmbed,
-  TwitterMomentShare,
-  TwitterDMButton,
-  TwitterVideoEmbed,
-  TwitterOnAirButton,
-} from "react-twitter-embed";
+import { TwitterTweetEmbed } from "react-twitter-embed";
 
 
 function Widgets() {

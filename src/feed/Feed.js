@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import "./Feed.css";
-import TweetBox from './TweetBox';
-import Post from './Post';
-import db from "./firebase"
+import TweetBox from '../tweet-box/TweetBox';
+import Post from '../post/Post';
+import db from "../firebase/firebase"
 import {
   onSnapshot,
   collection,
